@@ -31,23 +31,33 @@ figure {
 }
 
 .film-poster {
+  position: relative;
   display: inline-block;
   max-width: 25%;
 }
 
 .action-watch-later {
-
+  position: absolute;
+  top: 5px;
+  right: 10px;
 }
 
 .film-details {
+  vertical-align: top;
+  padding: 10px;
   display: inline-block;
   max-width: 73%;
+  position: relative;
 }
 
 .action-like {
-
+  position: absolute;
+  color: red;
+  bottom: -44%;
+  right: 0;
 }
 
 .fa-clock-o {
   color: red;
+
 }
