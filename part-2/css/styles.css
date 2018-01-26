@@ -26,4 +26,28 @@ figure {
 .film {
   width: 50%;
   margin: 40px auto;
+  border: 1px solid #bababa;
+  padding: 15px;
+}
+
+.film-poster {
+  display: inline-block;
+  max-width: 25%;
+}
+
+.action-watch-later {
+
+}
+
+.film-details {
+  display: inline-block;
+  max-width: 73%;
+}
+
+.action-like {
+
+}
+
+.fa-clock-o {
+  color: red;
 }
